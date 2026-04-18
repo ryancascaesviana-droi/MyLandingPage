@@ -18,7 +18,7 @@ if (projectGrid) {
     const card = document.createElement('a');
     card.className = 'project-card';
     card.href = projeto.link;
-    card.target = "_blanck"
+    card.target = "_blank"
     card.innerHTML = '<h3>' + projeto.titulo + '</h3><p>' + projeto.descrição + '</p>';
     projectGrid.appendChild(card);
     
