@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+    <p id="texto" class="texto colorido">
+    Deixe aqueles que buscam a morte encontrá-la
+    </p>
+    
+    <button onclick="removerelemento()">remover texto</button>
+
+     </div>
+
+    <style>
+    
+    
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 600px;
+    
+    }
+    
+    </style>
+
+    <script>
+
+    function removerelemento(){
+        document.getElementById("texto").remove()
+    }
+
+    </script>
+
+</body>
+</html>
